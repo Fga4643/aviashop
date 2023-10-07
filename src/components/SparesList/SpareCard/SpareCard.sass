@@ -1,0 +1,42 @@
+@import "src/Styles/variables.sass"
+
+.spare-card-wrapper
+	display: flex
+	flex-direction: column
+	background: #fff
+	border-radius: 15px
+	overflow: hidden
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22)
+	transition: 0.3s
+
+	.top
+		width: 100%
+
+		img
+			width: 100%
+			height: 200px
+
+	.center
+		padding: 15px
+		display: flex
+		flex-direction: column
+		min-height: 150px
+
+	.bottom
+		width: 100%
+
+		a
+			width: 100%
+			background: $secondary
+			cursor: pointer
+			text-decoration: none
+			color: #fff
+			display: flex
+			justify-content: center
+			align-items: center
+			padding: 10px 0
+			transition: 0.3s
+
+			&:hover
+				background: #8c86e5
+

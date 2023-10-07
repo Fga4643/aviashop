@@ -1,0 +1,44 @@
+@import "src/Styles/variables.sass"
+
+.header-wrapper
+	width: 100%
+	display: flex
+	justify-content: space-between
+	align-items: center
+	background: #fefefe
+	padding: 20px 40px
+	border-radius: 0 0 10px 10px
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1)
+	margin-bottom: 50px
+
+	.logo-container
+
+		.logo
+			font-size: 36px
+			color: $secondary
+
+	.right-menu-container
+		display: flex
+
+		.menu-item
+			margin-right: 25px
+			display: flex
+			align-items: center
+			color: $secondary
+			cursor: pointer
+
+			&:last-child
+				margin-right: 0
+
+			svg
+				font-size: 24px
+
+			a
+				color: $secondary
+
+			span
+				margin-left: 10px
+				font-size: 18px
+
+
+

@@ -1,0 +1,23 @@
+@import "src/Styles/variables.sass"
+
+.spares-list-container
+	width: 100%
+	background: #fff
+	border-radius: 10px
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1)
+
+	.filters-container
+		width: 100%
+		padding: 25px
+		display: flex
+		justify-content: flex-end
+		border-bottom: 2px solid $secondary
+
+	.cards-container
+		display: grid
+		grid-template-columns: repeat(auto-fit, minmax(250px, 0.33fr))
+		grid-column-gap: 25px
+		grid-row-gap: 25px
+		justify-content: center
+		width: 100%
+		padding: 50px
